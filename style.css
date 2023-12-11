@@ -1,0 +1,177 @@
+.container {
+    width: auto;
+    margin: auto;
+    display: flex;
+    line-height: 2;
+    align-items: center;
+    background-size: cover;
+    font-size: larger;
+    min-height: 90px;
+}
+.container a{
+    color:rgb(79, 127, 174);
+    text-align: center;
+    padding-left: 100px;
+}
+.page {
+    width: 100%;
+    background-image: url(cakek.jpg);
+    background-size: cover;
+    background-position: bottom;
+    padding: 500px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.page1{
+    padding-left: 100px;
+}
+.page1 button{
+    width: 191px;
+    height: 40px;
+    margin-top: 41px;
+    border: none;
+    outline: none;
+    background:rgb(9, 9, 9);
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.4s;
+    text-align: center;
+    color:rgb(76, 196, 158);
+}
+.page1 button:hover{
+    background:paleturquoise;
+    font-size: 20px;
+}
+#food{
+    padding-top:116px;
+    padding-bottom: 78px;
+    padding-left:134px;
+    padding-right:134px;
+}
+#food h1{
+    text-align: center;
+    margin-bottom: 76px;
+    font-size:50px;
+    color:#6bc2a1;
+}
+.list{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.item{
+    width: 290px;
+    height: 250px;
+    background:#362f2f;
+    border-radius:20px;
+    margin-bottom: 20px;
+}
+.item img {
+    margin:0px auto;
+    margin-top:20px;
+    width: 290px;
+    height: 190px;
+}
+.item h2{
+    text-align: center;
+    color:#7f8ce2;
+    font-weight: bold;
+    margin-top:5px;
+}
+.item h3 {
+    padding-bottom: 10px;
+    margin-top: 5px;
+    text-align: center;
+}
+.item h4 {
+    text-align: center;
+    color:#f42424;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+#slogan{
+    background-color: rgb(179, 233, 215);
+    width: 1972px;
+    height: 500px;
+}
+#slogan h1{
+    font-size: 50px;
+    color: #f42424;
+    text-align: center;
+    padding-top: 30px;
+}
+.ko{
+    color:#362f2f;
+    padding-left: 150px;
+    justify-content: space-between;
+    display: flex;
+    width: 1700px;
+    height: 220px;
+}
+.ko h2.img{
+    padding-right: 50px;
+}
+.list-page {
+    width: 30%;
+    margin:0px auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.nope{
+    margin:0px 15px;
+    width: 37px;
+    height: 37px;
+    background:#dacaca;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#call {
+    width: 100%;
+    background:rgb(0,0,0,0.79);
+    height: 200px;
+    margin-top: 0px;
+    padding:10px 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+#maps{
+    padding-bottom: 0px;
+}
+
+.call1 {
+    width: 250px;
+    color:#fff;
+}
+.call1 a {
+    color:#fff;
+}
+
+.call1 form input {
+    width: 294px;
+    height: 42px;
+    background:transparent;
+    padding-left:20px;
+    color:#fff;
+    margin-top:1px;
+}
+
+
+.call2 form button {
+    background:#362f2f;
+    box-shadow: 5px 5px 4px rgba(0,0,0.25);
+    width: 163px;
+    height: 38px;
+    color:#fff;
+}
+#call2 h3{
+    color: #fff;
+}
